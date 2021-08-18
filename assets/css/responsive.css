@@ -36,7 +36,7 @@
     .col-sm-3{flex-basis: 23%;margin:1%;}
     .col-sm-2{flex-basis:14%; margin:1%;}
     /* .row,.row2{flex-direction: column;} */
-    .navigation .nav{top:150px}
+    .navigation .nav{top:150px; !important}
     .col-md-6{flex-basis: 100%;}
     .col-md-4{flex-basis:100% ;}
     .col-md-3{flex-basis:100% ;}
