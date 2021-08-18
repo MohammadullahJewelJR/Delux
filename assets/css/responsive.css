@@ -21,7 +21,7 @@
         left: 0;
         transform: translateY(-10px);
         transition: .5s ease-in-out;
-        height: 200px;
+        height: 150px;
     }
     .navigation .nav ul li {
       display: block;
