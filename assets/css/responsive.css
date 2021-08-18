@@ -1,0 +1,97 @@
+@media screen and (min-width:992px) {
+    .col-lg-6{flex-basis: 47%; margin:1.5%;}
+    .col-lg-4{flex-basis:31%; margin:1%;}
+    .col-lg-3{flex-basis: 23%;margin:1%;}
+    .col-lg-2{flex-basis:14%; margin:1%;}
+}
+@media screen and (max-width:991px) {
+    .col-md-6{flex-basis: 47%; margin:1.5%;}
+    .col-md-4{flex-basis:31%; margin:1%;}
+    .col-md-3{flex-basis: 23%;margin:1%;}
+    .col-md-2{flex-basis:14%; margin:1%;}
+    #toggle-navigation{display: none;}
+    /* ===================== Navigation Responsive ======================== */
+    .navigation .nav {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 110px;
+        background: #ccc;
+        margin: auto !important;
+        left: 0;
+        transform: translateY(-10px);
+        transition: .5s ease-in-out;
+        height: 200px;
+    }
+    .navigation .nav ul li {
+      display: block;
+      text-align: center;
+      margin: 8px 0;
+    }
+    .menu-btn{display: block;margin-left: auto;margin-right:10px;}
+}
+@media screen and (max-width:768px) {
+    .col-sm-6{flex-basis: 47%; margin:1.5%;}
+    .col-sm-4{flex-basis:31%; margin:1%;}
+    .col-sm-3{flex-basis: 23%;margin:1%;}
+    .col-sm-2{flex-basis:14%; margin:1%;}
+    /* .row,.row2{flex-direction: column;} */
+    .navigation .nav{top:200px}
+    .col-md-6{flex-basis: 100%;}
+    .col-md-4{flex-basis:100% ;}
+    .col-md-3{flex-basis:100% ;}
+    .col-md-2{flex-basis:100% ;}
+    .col{flex-basis:100% ;}
+    .copyright{flex-direction: column; text-align:center;}
+    .logo{display: none;}
+    .mobile-logo {display: block !important;max-width: 300px;text-align: center;margin: auto;padding-bottom: 10px;}
+
+    /* ================================ COURSE PAGE RESPONSIVE ================= */
+    .program-left-content,  .teacher-left-content {
+        flex-basis: 100%;
+        border: none;
+      }
+      .program-right-content,  .teacher-right-content {
+        padding: 0 0 0 20px;
+        margin-top: 10px;
+        flex-basis: 100%;
+      }
+      /* ============================== LOGIN FORM ===================== */
+      
+        .logon-box {
+            position: absolute;
+            width: 100%;
+            padding: 20px;
+        }
+}
+@media screen and (max-width: 480px) {
+    .col{flex-basis:100%;}
+    .menu-btn {
+        width: 35px;
+        height: 32px;
+        line-height: 15px;
+        text-align: center;
+        display: block;
+        margin-top: 11px;
+        margin-right: 6px;
+        padding: 8px;
+    }
+    .register-btn {
+        padding: 3px 10px;
+        line-height: 30px;
+        text-align: center;
+        height: 35px;
+    }
+    .navigation input {
+        min-width: 130px;
+        margin: 12px 6px 0 3px;
+        padding: 2px 10px;
+        height: 30px;
+    }
+    input:focus {outline: none;}
+    /* ============ COURSE PAGE RESPONSIVE ======== */
+    .course-heading h1, .instructor-heading h1{font-size:50px}
+
+    .instructor-content h2{font-size:25px;}
+    .instructor-content p{font-size:14px;}
+}
