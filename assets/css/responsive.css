@@ -44,7 +44,7 @@
     .col{flex-basis:100% ;}
     .copyright{flex-direction: column; text-align:center;}
     .logo{display: none;}
-    .mobile-logo {display: block !important;max-width: 300px;text-align: center;margin: auto;padding-bottom: 10px;}
+    .mobile-logo {display: block !important;max-width: 250px;text-align: center;margin: auto;padding-bottom: 5px;}
 
     /* ================================ COURSE PAGE RESPONSIVE ================= */
     .program-left-content,  .teacher-left-content {
@@ -57,11 +57,13 @@
         flex-basis: 100%;
       }
       /* ============================== LOGIN FORM ===================== */
-      
         .logon-box {
             position: absolute;
             width: 100%;
             padding: 20px;
+        }
+        .footer-content {
+            text-align: center;
         }
 }
 @media screen and (max-width: 480px) {
