@@ -15,7 +15,7 @@
         position: absolute;
         width: 100%;
         text-align: center;
-        top: 72px;
+        top: 82px;
         background: #ccc;
         margin: auto !important;
         left: 0;
@@ -36,7 +36,7 @@
     .col-sm-3{flex-basis: 23%;margin:1%;}
     .col-sm-2{flex-basis:14%; margin:1%;}
     /* .row,.row2{flex-direction: column;} */
-    .navigation .nav{top:150px; !important}
+    .navigation .nav{top:151px; !important}
     .col-md-6{flex-basis: 100%;}
     .col-md-4{flex-basis:100% ;}
     .col-md-3{flex-basis:100% ;}
@@ -45,6 +45,7 @@
     .copyright{flex-direction: column; text-align:center;}
     .logo{display: none;}
     .mobile-logo {display: block !important;max-width: 250px;text-align: center;margin: auto;padding-bottom: 5px;}
+    
 
     /* ================================ COURSE PAGE RESPONSIVE ================= */
     .program-left-content,  .teacher-left-content {
